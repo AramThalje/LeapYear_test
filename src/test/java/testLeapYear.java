@@ -8,8 +8,12 @@ public class testLeapYear {
         assertTrue(LeapYear.isLeapYear(2000));
         assertTrue(LeapYear.isLeapYear(2020));
         assertTrue(LeapYear.isLeapYear(2400));
-
-
     }
+    @Test
+    public void Test_If_LeapYear_Divisible_By_400() {
+        assertTrue(LeapYear.isLeapYear(2000));
+        assertTrue(LeapYear.isLeapYear(2400));
+    }
+
 
 }
