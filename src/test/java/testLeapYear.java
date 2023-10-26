@@ -22,6 +22,7 @@ public class testLeapYear {
         assertFalse(LeapYear.isLeapYear(2018));
 
         assertFalse(LeapYear.isLeapYear(2022));
+    }
 
 
 }
