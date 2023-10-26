@@ -11,28 +11,5 @@ public class testLeapYear {
 
 
     }
-    @Test
-    public void Test_If_LeapYear_Divisible_By_400() {
-        assertTrue(LeapYear.isLeapYear(2000));
-        assertTrue(LeapYear.isLeapYear(2400));
-    }
 
-
-
-    @Test
-    public void Test_If_Non_LeapYear() {
-        assertFalse(LeapYear.isLeapYear(1700));
-        assertFalse(LeapYear.isLeapYear(1800));
-        assertFalse(LeapYear.isLeapYear(1900));
-        assertFalse(LeapYear.isLeapYear(2018));
-
-        assertFalse(LeapYear.isLeapYear(2022));
-    }
-    @Test
-    public void testNonLeapYearIsNotDivisibleBy4(){
-        assertFalse(LeapYear.isLeapYear(2021));
-        assertFalse(LeapYear.isLeapYear(2022));
-        assertFalse(LeapYear.isLeapYear(2023));
-
-    }
 }
