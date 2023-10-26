@@ -3,7 +3,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 public class testLeapYear {
 
-
     @Test
     public void Test_If_LeapYear_Divisble_By_4_But_Not_By_100() {
         assertTrue(LeapYear.isLeapYear(2000));
