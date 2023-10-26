@@ -23,6 +23,13 @@ public class testLeapYear {
 
         assertFalse(LeapYear.isLeapYear(2022));
     }
+    @Test
+    public void testNonLeapYearIsNotDivisibleBy4(){
+        assertFalse(LeapYear.isLeapYear(2021));
+        assertFalse(LeapYear.isLeapYear(2022));
+        assertFalse(LeapYear.isLeapYear(2023));
+
+    }
 
 
 }
